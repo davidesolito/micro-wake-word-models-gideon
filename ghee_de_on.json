@@ -5,7 +5,7 @@
   "website": "https://github.com/davidesolito/micro-wake-word-models-gideon",
   "model": "ghee_de_on.tflite",
   "trained_languages": ["it"],
-  "version": 1,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.95,
     "feature_step_size": 10,
