@@ -1,8 +1,16 @@
 {
-  "model": "gideon",
-  "tflite": "gideon.tflite",
-  "labels": [],
-  "version": 1,
-  "md5": "",
-  "quantized": true
+  "type": "micro",
+  "wake_word": "gideon",
+  "author": "Tuo Nome",
+  "website": "",
+  "model": "gideon.tflite",
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
+  }
 }
+
