@@ -4,7 +4,7 @@
   "author": "Davide Solito",
   "website": "https://github.com/davidesolito/micro-wake-word-models-gideon",
   "model": "gideon.tflite",
-  "trained_languages": ["it"],
+  "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.95,
