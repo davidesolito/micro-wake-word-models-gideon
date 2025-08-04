@@ -1,4 +1,8 @@
 {
+  "model": "gideon",
   "tflite": "gideon.tflite",
-  "metadata": {}
+  "labels": [],
+  "version": 1,
+  "md5": "",
+  "quantized": true
 }
