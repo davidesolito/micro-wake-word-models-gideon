@@ -1,16 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "Gideon",
+  "wake_word": "gideon",
   "author": "Davide Solito",
   "website": "https://github.com/davidesolito/micro-wake-word-models-gideon",
   "model": "gideon.tflite",
-  "trained_languages": ["en"],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.95,
-    "feature_step_size": 10,
+    "probability_cutoff": 0.97,
     "sliding_window_size": 5,
-    "tensor_arena_size": 12000,
-    "minimum_esphome_version": "2025.7.0"
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
   }
 }
